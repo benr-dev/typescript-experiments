@@ -148,3 +148,20 @@ yarn plugin import typescript
 ➤ YN0000: Saving the new plugin in .yarn/plugins/@yarnpkg/plugin-typescript.cjs
 ➤ YN0000: Done in 0s 863ms
 ```
+
+# Add plug'n'play modules
+```
+yarn add @yarnpkg/pnpify --dev
+➤ YN0000: ┌ Resolution step
+➤ YN0000: └ Completed in 1s 792ms
+➤ YN0000: ┌ Fetch step
+➤ YN0013: │ tunnel@npm:0.0.6 can't be found in the cache and will be fetched from the remote registry
+➤ YN0013: │ util-deprecate@npm:1.0.2 can't be found in the cache and will be fetched from the remote registry
+➤ YN0013: │ which@npm:2.0.2 can't be found in the cache and will be fetched from the remote registry
+➤ YN0013: │ wrappy@npm:1.0.2 can't be found in the cache and will be fetched from the remote registry
+➤ YN0013: │ yallist@npm:4.0.0 can't be found in the cache and will be fetched from the remote registry
+➤ YN0000: └ Completed in 4s 937ms
+➤ YN0000: ┌ Link step
+➤ YN0000: └ Completed in 0s 339ms
+➤ YN0000: Done in 7s 114ms
+```
