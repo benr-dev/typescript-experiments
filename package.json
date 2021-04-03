@@ -1,0 +1,8 @@
+{
+  "name": "typescript-experiments",
+  "version": "1.0.0",
+  "description": "Experimental project using yarn & typescript",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true
+}
