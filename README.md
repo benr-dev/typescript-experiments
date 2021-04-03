@@ -125,3 +125,18 @@ Saving it into /home/ben/typescript-experiments/.yarn/releases/yarn-berry.cjs...
 Updating /home/ben/typescript-experiments/.yarnrc.yml...
 Done!
 ```
+
+# Add typescript
+```
+yarn add --dev typescript
+➤ YN0000: ┌ Resolution step
+➤ YN0000: └ Completed in 0s 259ms
+➤ YN0000: ┌ Fetch step
+➤ YN0013: │ typescript@npm:4.2.3 can't be found in the cache and will be fetched from the remote registry
+➤ YN0013: │ typescript@patch:typescript@npm%3A4.2.3#builtin<compat/typescript>::version=4.2.3&hash=a45b0e can'
+➤ YN0013: │ typescript@npm:4.2.3 can't be found in the cache and will be fetched from the remote registry
+➤ YN0000: └ Completed in 29s 187ms
+➤ YN0000: ┌ Link step
+➤ YN0000: └ Completed
+➤ YN0000: Done in 29s 545ms
+```

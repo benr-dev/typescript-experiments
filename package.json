@@ -4,5 +4,8 @@
   "description": "Experimental project using yarn & typescript",
   "main": "index.js",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
 }
