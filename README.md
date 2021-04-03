@@ -140,3 +140,11 @@ yarn add --dev typescript
 ➤ YN0000: └ Completed
 ➤ YN0000: Done in 29s 545ms
 ```
+
+# Add typescript plugin
+```
+yarn plugin import typescript
+➤ YN0000: Downloading https://github.com/yarnpkg/berry/raw/master/packages/plugin-typescript/bin/%40yarnpkg/plugin-typescript.js
+➤ YN0000: Saving the new plugin in .yarn/plugins/@yarnpkg/plugin-typescript.cjs
+➤ YN0000: Done in 0s 863ms
+```
