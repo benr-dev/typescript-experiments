@@ -6,3 +6,4 @@
 !.yarn/versions/
 !.yarn/sdks/
 yarn-error.log
+dist
