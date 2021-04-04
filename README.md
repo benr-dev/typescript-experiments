@@ -165,3 +165,10 @@ yarn add @yarnpkg/pnpify --dev
 ➤ YN0000: └ Completed in 0s 339ms
 ➤ YN0000: Done in 7s 114ms
 ```
+
+# Compile & run
+```
+yarn build
+node dist/helloWorld.js
+Hello World
+```
